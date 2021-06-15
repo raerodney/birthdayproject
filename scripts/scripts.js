@@ -19,20 +19,20 @@ const dayOfWeek = dateOfBirth.getDay();
 
 const i = 0;
 
+const boyAkan = maleAkan[dayOfWeek];
 
-function akanMale() {
-    parseInt(dayOfWeek);
-    
-}
+const girlAkan = femaleAkan[dayOfWeek];
+
+
 
 if (myGender && male) {
-     alert(maleAkan[0]);
+     alert(boyAkan);
      
-}   
-
-if (myGender && female){
-    alert('Your female Akan name is:');
+} else {
+    alert(girlAkan);
 }
+
+
 
     
 
