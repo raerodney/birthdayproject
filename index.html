@@ -11,21 +11,22 @@
     <title>Birthday Project</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container col">
         <div class="form-group">
+            <img src="akanthreeee.png" height="100px" width="100px" alt="">
             <H2 class="header">AGE CALCULATOR</H2>
             <p>Most people do know when their birthdays are,<br>
                  but some might not know what day of the week they were born. <br>
                   Luckily for us, there are ways to calculate the day of the week from a specific date. <br>
                    The following is one of the many methods that exist for that;</p>
             <p>Enter your age below:</p>
-            <input type="text" name="Age" placeholder="DD/MM/YYYY" id="myBirthdayDate">
-            <input type="button" class="btn btn-outline-warning" value="Calculate">
+            <input type="date" name="Age" id="myBirthdayDate">
+            <input type="button" class="btn btn-outline-warning" onclick="getAkanName()" value="Calculate">
             
         </div>
         <div class="gender-checkboxes">
-            <input type="radio" name="male" id="maleAge()"><p>male</p>
-            <input type="radio" name="female" id="femaleAge()"><p>female</p>
+            <input type="radio" name="gender" id="male"><p>male</p>
+            <input type="radio" name="gender" id="female"><p>female</p>
         </div>
 
 
