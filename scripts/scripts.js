@@ -15,21 +15,23 @@ const female = document.getElementById('female');
 
 const dateOfBirth = new Date(myBirthday);
 
-const dayOfWeek = dateOfBirth.getDate();
+const dayOfWeek = dateOfBirth.getDay();
 
 const i = 0;
 
 
-
-
+function akanMale() {
+    parseInt(dayOfWeek);
+    
+}
 
 if (myGender && male) {
-     alert(dayOfWeek[maleAkan]);
+     alert(maleAkan[0]);
      
 }   
 
 if (myGender && female){
-    alert(dateOfBirth.femaleAkan);
+    alert('Your female Akan name is:');
 }
 
     
