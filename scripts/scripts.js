@@ -1,4 +1,5 @@
 function getAkanName() {
+
     const maleAkan = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
 
 const femaleAkan = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
@@ -25,18 +26,17 @@ const girlAkan = femaleAkan[dayOfWeek];
 
 
 
+
 if (myGender && male) {
-     alert(boyAkan);
-     
-} else {
+    alert(boyAkan);
+    
+} 
+if (myGender && female) {
     alert(girlAkan);
 }
 
-
-
+document.getElementById('answer').getAkanName();
     
 
-
-document.getElementById('answer').getAkanName();
     
 }
